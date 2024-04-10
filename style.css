@@ -1,0 +1,77 @@
+*{
+    transition: 0.3s;
+}
+body{
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, #3d3d3d, #4b4b4b, #5a5a5a, #696969, #787878);
+}
+h1, p, a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 0;
+}
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.times{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+}
+button{
+    padding: 13px;
+    color: white;
+    background: #69696900;
+    border: 1px solid white;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(166, 230, 255);
+    border: 1px solid rgb(166, 230, 255);
+}
+.game{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: #3d3d3d;
+    border-radius: 20px;
+    position: relative;
+}
+.gameCount{
+    display:none;;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: #3d3d3d;
+    border-radius: 20px;
+}
+.up{
+    margin-top: -100vh;
+}
+.circle{
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+.gameCount p{
+    font-size: 40px;
+}
+#count{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(89, 197, 247);
+    font-size: 40px;
+}

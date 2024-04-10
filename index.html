@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Clicker</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Aim Training</h1>
+        <a href="#">Начать игру</a>
+    </div>
+    <div class="screen">
+        <h1>Выберите время</h1>
+        <div class="times">
+            <button class="seconds" data-time="10">10 сек</button>
+            <button class="seconds" data-time="20">20 сек</button>
+            <button class="seconds" data-time="30">30 сек</button>
+        </div>
+    </div>
+    <div class="screen">
+        <p class="time">Осталось <span id="time">00:00</span></p>
+        <div class="game"></div>
+        <div class="gameCount">
+            <p>Счёт <span id="count">8</span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
